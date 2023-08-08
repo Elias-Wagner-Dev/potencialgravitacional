@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+head {
+    background-color: #000000;
+}
+
+body,
+html {
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+p,
+h1 {
+    color: #ffffff;
+}
