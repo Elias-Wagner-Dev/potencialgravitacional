@@ -87,3 +87,17 @@ h1{
     position: absolute;
     font-size: 28px;
 }
+
+#infortexto{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#epgtexto{
+    width: 90%;
+    margin-bottom: 20px;
+}

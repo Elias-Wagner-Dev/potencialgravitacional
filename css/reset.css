@@ -18,3 +18,15 @@ p,
 h1 {
     color: #ffffff;
 }
+
+@media (min-width:500px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        width: 500px;
+        height: auto;
+    }
+}
