@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 main{
-    width: 100%;
+  
     height: auto;
 }
 #banner{
@@ -11,7 +11,14 @@ main{
     justify-content: center;
     
 }
-
+#bannerimg{
+    width: 500px;
+    height: auto;
+}
+#bannerimg img{
+    width: 500px;
+    height: auto;
+}
 #tituloEsubtexto{
     width: 100%;
     height: auto    ;
