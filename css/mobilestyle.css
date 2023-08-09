@@ -12,13 +12,11 @@ main{
     
 }
 #bannerimg{
+    margin-bottom: 30px;
     width: 500px;
     height: auto;
 }
-#bannerimg img{
-    width: 500px;
-    height: auto;
-}
+
 #tituloEsubtexto{
     width: 100%;
     height: auto    ;
@@ -42,7 +40,7 @@ main{
     margin-left:23%;
  }
  #titulo h1:nth-child(4){
-    margin-left: 45%;
+    margin-left: 35%;
     white-space: nowrap;
  }
    
