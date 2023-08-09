@@ -43,6 +43,7 @@ main{
  }
  #titulo h1:nth-child(4){
     margin-left: 45%;
+    white-space: nowrap;
  }
    
 h1{
