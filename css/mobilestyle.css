@@ -12,7 +12,7 @@ main{
     
 }
 #bannerimg{
-    margin-bottom: 40px;
+    
     width: 500px;
     height: auto;
 }
@@ -45,7 +45,7 @@ main{
  }
    
 h1{
-    font-size: 38px;
+    font-size: 32px;
 }
 
 #subtexto{
@@ -56,9 +56,6 @@ h1{
     padding: 8px;
 }
 
-#subtexto p{
-    font-size: 16px;
-}
 
 #informacao{
     width: 100%;
