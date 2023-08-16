@@ -3,73 +3,58 @@
 
 main{
   
-    height: auto;
+    height: 1900px;
 }
-#banner{
+#content{
     position: relative;
-    display: flex;
-    justify-content: center;
-    
-}
-#bannerimg{
-    width: 500px;
-    height: auto;
+    height: 1900px;
 }
 
-#tituloEsubtexto{
+#info{
     width: 100%;
-    height: auto    ;
+    height: auto;
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-#titulo{
-    margin-top: 10px;
+
+#banner{
     width: 90%;
-    height: auto;
-
-}
-#titulo h1:nth-child(1){
-    margin-top:5%;
- }
-#titulo h1:nth-child(2){
-   margin-left:23%;
-}
-#titulo h1:nth-child(3){
-    margin-left:23%;
- }
- #titulo h1:nth-child(4){
-    margin-left: 42%;
-    white-space: nowrap;
- }
-   
-h1{
-    font-size: 30px;
-}
-
-#subtexto{
-    margin-top: 30px;
-    width: 85%;
-    height: auto;
-    background-color: rgb(0, 0,0,0.5);
-    padding: 8px;
-}
-
-#subtexto p{
-    font-size: 12px;
-}
-
-#informacao{
-    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
 }
-
+#titulo{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#subtexto{
+    margin-top: 4%;
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(0, 0,0,0.5);
+    font-size: 18px;
+}
+#informacao{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0,0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #hole{
     width: 100%;
     height: auto;
@@ -77,13 +62,13 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
 #explicacao{
     width: 90%;
-    margin-bottom: 20px;
+    height: auto;
 }
 
 #equacao{
+    margin-top: 20px;
     position: relative;
     width: 100%;
     height: auto;
@@ -91,37 +76,29 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
 #equacaotexto{
     position: absolute;
-    font-size: 28px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
 }
-
 #infortexto{
-    width: 100%;
-    height: auto;
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#epgtexto{
+    margin-bottom: 10px;
     width: 90%;
-    margin-bottom: 20px;
+    height: auto;
 }
-
 #coisasemquefunciona{
     width: 100%;
     height: auto;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-
 #coisasemquefunciona img{
     margin-top: 10px;
-    margin-bottom: 10px;
+}
+#bannerimg{
+    width: 500px;
+    height: auto;
 }
